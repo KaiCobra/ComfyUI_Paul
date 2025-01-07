@@ -68,7 +68,10 @@ wget --header="Authorization: Bearer $HF_API_TOKEN" https://huggingface.co/stabi
 wget --header="Authorization: Bearer $HF_API_TOKEN" https://huggingface.co/stabilityai/stable-diffusion-3.5-large/resolve/main/text_encoders/t5xxl_fp16.safetensors
 wget --header="Authorization: Bearer $HF_API_TOKEN" https://huggingface.co/comfyanonymous/flux_text_encoders/resolve/main/t5xxl_fp8_e4m3fn.safetensors
 ```
-
+5. 安裝[canny_edge](https://huggingface.co/stabilityai/stable-diffusion-3.5-large-controlnet-canny/resolve/main/diffusion_pytorch_model.safetensors)
+```python
+wget --header="Authorization: Bearer $HF_API_TOKEN" https://huggingface.co/stabilityai/stable-diffusion-3.5-large-controlnet-canny/resolve/main/diffusion_pytorch_model.safetensors
+```
 ## 執行ComfyUI workflow
 ```text
 1. conda activate comfy
